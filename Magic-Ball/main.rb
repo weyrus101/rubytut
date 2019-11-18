@@ -38,8 +38,8 @@ greetings = [
 
 ]
 
-puts greetings.sample
+puts greetings.sample # Приветствие пользователя
 
-sleep 1
+sleep 1 # Пауза (1 сек)
 
-puts answers.sample
+puts answers.sample # Случайный ответ
