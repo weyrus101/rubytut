@@ -14,6 +14,7 @@ number = rand(1..16) # рандомное число (загаданное)
 attempts = 4 # кол-во попыток
 answer = nil # ответ пользователя
 
+# Функция сравнивает введенный ответ с загаданным числом
 def answer_false(answer, number)
 	if answer > number
 		(answer - number).abs <= 2 ? 
@@ -26,6 +27,7 @@ def answer_false(answer, number)
 	end
 end
 
+# Цикл выполняется, пока не закончатся попытки, либо не будет отгаданно число
 while (number != answer) & (attempts != 0)
 	attempts-=1
 	answer = gets.to_i
