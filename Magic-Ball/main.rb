@@ -30,4 +30,6 @@ answers = [
 
 ]
 
+puts "Привет, дорогой друг! Отвечаю на твой вопрос..."
+
 puts answers.sample
