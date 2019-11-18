@@ -38,6 +38,7 @@ greetings = [
 
 ]
 
+
 puts greetings.sample # Приветствие пользователя
 
 sleep 1 # Пауза (1 сек)
