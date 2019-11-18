@@ -40,6 +40,6 @@ greetings = [
 
 puts greetings.sample
 
-sleep 3
+sleep 1
 
 puts answers.sample
