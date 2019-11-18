@@ -29,3 +29,5 @@ answers = [
 	"Весьма сомнительно"
 
 ]
+
+puts answers.sample
