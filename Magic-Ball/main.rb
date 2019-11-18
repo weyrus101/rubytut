@@ -32,4 +32,6 @@ answers = [
 
 puts "Привет, дорогой друг! Отвечаю на твой вопрос..."
 
+sleep 3
+
 puts answers.sample
