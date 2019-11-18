@@ -1,2 +1,0 @@
-# rubytut
-Tasks from rubyrush
